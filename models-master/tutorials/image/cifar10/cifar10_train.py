@@ -44,7 +44,9 @@ import tensorflow as tf
 import cifar10
 
 FLAGS = tf.app.flags.FLAGS
-
+''' Definition of the following 3 function
+def DEFINE_string(flag_name, default_value, docstring)
+'''
 tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train',
                            """Directory where to write event logs """
                            """and checkpoint.""")
